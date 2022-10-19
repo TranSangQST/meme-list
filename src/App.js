@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import MemeApp from "./components/MemeApp";
 
