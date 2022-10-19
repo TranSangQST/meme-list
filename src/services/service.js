@@ -5,6 +5,7 @@ async function fetchMemeApi(memeQuantity) {
         const res = await fetch(apiUrl);
         const resJson = await res.json();
         const data = resJson.data;
+
         const dataMemeLength = data.memes.length;
 
         // Random memes from data
