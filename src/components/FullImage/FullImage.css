@@ -1,0 +1,15 @@
+.meme-img-full-wrapper {
+    width: 400px;
+    padding-left: 10px;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    overflow: scroll;
+    bottom: 0;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.meme-img-full {
+    width: 100%;
+}

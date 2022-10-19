@@ -10,7 +10,12 @@ async function fetchMemeApi(memeQuantity) {
 
         // Random memes from data
         const memes = [];
-        for (let i = 0; i < memeQuantity; i++) {
+
+        const len =
+            memeQuantity <= dataMemeLength ? memeQuantity : dataMemeLength;
+
+        console.log("len", len);
+        for (let i = 0; i < len; i++) {
             let index = Math.floor(Math.random() * dataMemeLength);
             memes.push(data.memes[index]);
         }

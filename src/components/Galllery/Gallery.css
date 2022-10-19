@@ -1,7 +1,7 @@
 .gallary-wrapper {
     display: flex;
     align-items: center;
+    height: max-content;
     flex-wrap: wrap;
-    padding: 100px;
-    margin-top: 20px;
+    border-right: 1px solid #ccc;
 }

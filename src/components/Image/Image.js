@@ -1,6 +1,6 @@
 import "./Image.css";
 
-function Image({ meme }) {
+function Image({ meme, onClick }) {
     return (
         <div className="meme-img-wrapper">
             <img
@@ -8,6 +8,7 @@ function Image({ meme }) {
                 src={meme.url}
                 alt={meme.name}
                 title={meme.name}
+                onClick={onClick}
             ></img>
         </div>
     );
