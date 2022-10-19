@@ -1,0 +1,7 @@
+.gallary-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+    margin-top: 20px;
+}

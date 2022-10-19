@@ -1,0 +1,19 @@
+.btnGroup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+}
+
+.readloadBtn {
+    margin: 20px;
+}
+
+.addBtn {
+    margin: 20px;
+}

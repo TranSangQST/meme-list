@@ -1,0 +1,1 @@
+export { fetchMemeApi } from "./service";

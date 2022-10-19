@@ -1,0 +1,17 @@
+.meme-img-wrapper {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meme-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
